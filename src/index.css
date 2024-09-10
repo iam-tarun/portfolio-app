@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  font-family: "Maven pro";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(150deg, black, #); */
+  background-color: #faf7ff;
+  height: 100vh;
+  margin: 0;
+  color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Maven+Pro:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.maven-pro {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-div {
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding:0%;
+  align-items: end;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.nav li {
+  margin-inline: 3rem;
+  margin-block: 1rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav li a:hover {
+  color: #8685ef;
+}
+
+.nav li a:active {
+  color: #fff;
+}
+
+.home-section {
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile {
+  flex: 2;
+  max-width: 40vw;
+  margin-inline: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile img {
+  width: 35rem;
+  /* filter: grayscale(100%); */
+  filter: hue-rotate(360deg) sepia(0.5);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile h1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #000;
+}
+
+.profile p {
+  font-size: 1.3rem;
+}
+
+.action {
+  text-align: center;
+  flex: 1;
+}
+
+.action h2 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.grid {
+  
+  min-width: 30rem;
+  height: 10rem;
+  position: relative;
+}
+
+.action-button {
+  /* background-color: rgba(255, 255, 255, 1); */
+  z-index: 2;
+  width: 20rem;
+  height: 4rem;
+  color: #fff;
+  font-family: 'Bebas neue', sans-serif;
+  font-size: 2rem;
+  padding-block: 1rem;
+  background: #8685ef; 
+  border: 1px solid #8685ef; 
+  border-radius: 3rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.action-button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255,   
+ 0.5), rgba(255, 255, 255, 0));
+  transform: scaleY(0.5);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out;
+}
+
+.action-button:hover::before {
+  transform: scaleY(1);
+}
+
+.projects-section {
+  width: 100%;
+  height: 100vh;
+  font-family: 'montserrat', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  background-image: url('./assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  margin: 0
+}
+
+.projects {
+  margin-top: 4rem;
+  width: 80vw;
+  height: 90vh;
+  overflow-y: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18.5vw;
+  height: 70vh;
+  background-color: rgba(227, 224, 243, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  margin-inline: 0.5vw;
+  margin-block: 1vw;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.card-image {
+  border-radius: 1rem, 1rem, 0, 0;
+  flex: 3;
+}
+
+.card-content {
+  flex:3;
+}
+
+.card-action {
+  flex:1;
+}
+
+.card-image img {
+  width: 18.5vw;
+  height: 36vh;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.project-title {
+  font-family: 'Maven pro', sans-serif;
+  font-size: 1.3rem;
+}
+
+.project-description {
+  margin-inline: 0.5rem;
+  font-family: 'Maven pro';
+  font-size: 1rem;
+  white-space: normal;
+  text-align: left;
+}
+
+.card-button {
+  background-color:#8685ef;
+  color: #fff;
+  font-family: 'Maven pro';
+  font-size: 1rem;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3rem;
+  margin-inline: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #8685ef;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+}
+
+.about-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/about_bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.main-about {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.half-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.about-card {
+  margin-inline: 5rem;
+  margin-block: 4rem;
+  width: 35rem;
+  height: 15rem;
+  background-color: rgba(227, 224, 243, 0.45);
+  border-radius: 2rem;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.card-action a {
+  text-decoration: none;
+  color: white;
+}
