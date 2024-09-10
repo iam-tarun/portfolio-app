@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebb89cf9.css",
+    "main.js": "/static/js/main.e004cc4a.js",
+    "static/media/about_bg.png": "/static/media/about_bg.22f4977a6e5894f5295a.png",
+    "static/media/profile_pic.png": "/static/media/profile_pic.5519650196e0449ddd78.png",
+    "static/media/bg.png": "/static/media/bg.442e1c328b7c5d7d65c3.png",
+    "static/media/trend-spotter.jpeg": "/static/media/trend-spotter.a41b72204fdc03d09deb.jpeg",
+    "static/media/scene-recognition.jpeg": "/static/media/scene-recognition.7b564c22889d6a690dcd.jpeg",
+    "static/media/shell.jpeg": "/static/media/shell.5258ac7afe933ee20f56.jpeg",
+    "static/media/airp.jpeg": "/static/media/airp.941e825eea1f17086983.jpeg",
+    "static/media/customer-segmentation.jpeg": "/static/media/customer-segmentation.e523c6761dcfcf930ebb.jpeg",
+    "static/media/warp.jpeg": "/static/media/warp.3ea37553558095199dd7.jpeg",
+    "static/media/chatbot.jpeg": "/static/media/chatbot.a4f02d30b7b38a6e84c1.jpeg",
+    "index.html": "/index.html",
+    "main.ebb89cf9.css.map": "/static/css/main.ebb89cf9.css.map",
+    "main.e004cc4a.js.map": "/static/js/main.e004cc4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebb89cf9.css",
+    "static/js/main.e004cc4a.js"
+  ]
+}

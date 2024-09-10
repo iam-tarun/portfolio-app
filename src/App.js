@@ -13,8 +13,8 @@ function App() {
       <div className='main-content' >
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home/>} />
-          <Route path='/portfolio-app' element={<Home/>} />
+          <Route default path='/' element={<Home/>} />
+          <Route path='/tarunteja.github.io' element={<Home/>} />
           <Route exact path='/projects' element={<Projects/>} />
           <Route exact path='/about' element={<About/>} />
         </Routes>
