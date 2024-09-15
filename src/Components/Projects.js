@@ -10,8 +10,9 @@ import airp from '../assets/airp.jpeg'
 function Projects() {
   return (
     <div className='projects-section'>
-        <h1 className='heading' >Projects</h1>
-        <div className='projects' >
+        
+          
+          <div className="projects">
           <div className='card'>
             <div className="card-image">
               <img src={chatbot} alt="chatbot" />
@@ -100,7 +101,8 @@ analysis capabilities.</p>
               <a href="https://github.com/iam-tarun/air-passenger-forecast-sarima" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
               </div>
           </div>
-        </div>
+
+          </div>
     </div>
   )
 }
