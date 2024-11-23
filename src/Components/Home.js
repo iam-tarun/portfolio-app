@@ -1,34 +1,47 @@
 import React from 'react'
-import profile_pic from '../assets/profile_pic.png'
-import Typewriter from 'typewriter-effect';
+import profile from '../assets/profile.jpg'
+import ProjectPreview from './ProjectPreview'
+import ft from '../assets/finance_tracker.jpeg'
 
 function Home() {
+
+  const latestProject = {
+    title: "Finance Tracker App",
+    description: "A tool to manage expenses, track budgets, and visualize finances.",
+    image: ft, // Replace with your latest project image
+    link: "https://github.com/your-profile/finance-tracker"
+  };
+
+
   return (
     <div className='home-section'>
       <div className='profile' >
-          <img src={profile_pic} alt="profile pic" />
-          
-        <div className="welcome-text">
-          <h1>Hi, I'm Tarunteja Obbina</h1>
-          <p>A passionate data analyst based in Richardson, Texas. With a keen eye for detail and a knack for problem-solving, I specialize in Big Data Analytics, Data Visualizations and Machine Learning. My goal is to leverage data-driven insights to help organizations make informed decisions and achieve their objectives.
-          </p>
+          <div>
+            <img className='profile-pic' src={profile} alt="tarun teja obbina profile pic" />
+          </div>
+          <div className='Profile Info' >
+            <h1>Hi, I'm Tarun Teja Obbina</h1>
+            <h2>Software Engineer | Full Stack Developer </h2>
+            {/* short intro of me */}
+            <h3>Passionate software engineer specializing in scalable, efficient application development.</h3>
           </div>
       </div>
-      <div className='action' >
-          <h2><Typewriter options={{
-                  strings: ['Data-Driven Storyteller', 'Numbers Ninja', 'Data Detective', 'Insight Engineer', 'Analytics Advocate'],
-                  autoStart: true,
-                  loop: 75
-          }}/></h2>
-          <div className='grid' >
-            <a href="/projects"><button className='action-button' >View Projects</button></a>
+      <div className='CTA' >
+        <div>
+          <div className="latest-project-container">
+            <ProjectPreview
+              title={latestProject.title}
+              description={latestProject.description}
+              image={latestProject.image}
+              link={latestProject.link}
+            />
           </div>
+        </div>
+        <button >
+          <a style={{textDecoration: 'none', color: '#e4e4e5'}} href="./projects">View Projects</a>
+        </button>
       </div>
-      <div className="box1">
-        <div className="box3"></div>
-        <div className="box4"></div>
-      </div>
-      <div className="box2"></div>
+      
     </div>
   )
 }

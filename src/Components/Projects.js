@@ -1,108 +1,73 @@
 import React from 'react'
-import chatbot from '../assets/chatbot.jpeg'
-import customerSegmentation from '../assets/customer-segmentation.jpeg'
-import sceneRecognition from '../assets/scene-recognition.jpeg'
-import warp from '../assets/warp.jpeg'
+import helka from '../assets/helka.png'
+import dumbo from '../assets/dumbo.png'
 import shell from '../assets/shell.jpeg'
-import trendSpotter from '../assets/trend-spotter.jpeg'
-import airp from '../assets/airp.jpeg'
+import chatbot from '../assets/chatbot.jpeg'
+import ft from '../assets/finance_tracker.jpeg'
 
 function Projects() {
   return (
     <div className='projects-section'>
-        
-          
-          <div className="projects">
-          <div className='card'>
-            <div className="card-image">
-              <img src={chatbot} alt="chatbot" />
+        <h2 style={{color: '#e4e4e5'}} >
+          Projects
+        </h2>
+        <div className='projects'>
+          <div className='project-card'>
+              <img className='project-img' src={ft} alt='finance tracker' />
+              <h3>Finance Tracker</h3>
+              <p>Track your expenses, manage budgets, and visualize your financial goals with ease. It offers intuitive insights, category-wise breakdowns to help you stay on top of your finances!</p>
+              <p>Technologies: Flutter, Firebase, Dart</p><br />
+              <button >
+                <a 
+                style={{textDecoration: 'none', color: '#e4e4e5'}} 
+                href='https://github.com/iam-tarun/finance-tracker' target='_blank' rel='noreferrer'>View Project</a>
+              </button>
             </div>
-              <div className="card-content">
-              <h2 className='project-title' >Planet bot</h2>
-              <p className='project-description' >Developed a chatbot using TF-IDF and cosine similarity, achieving an initial accuracy of 83% in fetching relevant answers to
-user questions.</p>
-              </div>
-              <div className="card-action">
-              <a href="https://colab.research.google.com/drive/1b78Wcpdtfn2_7qMpB4WBaXRfXAtm9glY?usp=sharing" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-              </div>
+          <div className='project-card'>
+            <img className='project-img' src={helka} alt='helka' />
+            <h3>Helka</h3>
+            <p>Helka provides secure personalised news. It can get relevant news based on keyword searches. News articles from all over the internet can be stored for future reference.</p>
+            <p>Technologies: React.js, Node.js, Express.js, CSS, JavaScript, MongoDB</p>
+            <button >
+              <a 
+              style={{textDecoration: 'none', color: '#e4e4e5'}} 
+              href='https://github.com/iam-tarun/helka' target='_blank' rel='noreferrer'>View Project</a>
+            </button>
           </div>
-          <div className='card' >
-            <div className="card-image">
-                <img src={customerSegmentation} alt="customer segmentation" />
-              </div>
-                <div className='card-content' >
-                  <h2 className='project-title' >Customer Segmentation</h2>
-                  <p className='project-description' >Analyzed over 1 million customer records and purchase history to identify and segment key customer groups.</p>
-                  </div>
-                <div className='card-action' >
-                <a href="https://github.com/iam-tarun/Customer-segmentation-Pyspark" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-                </div>
+          <div className="project-card">
+            <img className='project-img' src={dumbo} alt='dumbo' />
+            <h3>Dumbo</h3>
+            <p>Document organizer and searches documents with tags specified to them. Automatic tags can be generated using Google OCR. Used PostgreSQL and Google Cloud storage.</p>
+            <p>Technologies: Django, Python, Google cloud Platform, PostgreSQL, HTML, CSS</p>
+            <button >
+              <a 
+              style={{textDecoration: 'none', color: '#e4e4e5'}} 
+              href='https://github.com/iam-tarun/dumbo' target='_blank' rel='noreferrer'>View Project</a>
+            </button>
           </div>
-          <div className="card">
-            <div className="card-image">
-                  <img src={sceneRecognition} alt="scene recognition" />
-                </div>
-                  <div className="card-content">
-                  <h2 className='project-title' >Scene Recognition</h2>
-                  <p className='project-description' >Trained a deep learning model using the ResNet architecture on the MIT Indoor 67 dataset in Google Colab, utilizing GPU
-acceleration for optimized processing.</p>
-                  </div>
-                  <div className="card-action">
-                  <a href="https://github.com/iam-tarun/Resnet-Implementation" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-                  </div>
+          <div className="project-card">
+            <img className='project-img' src={shell} alt='shell' />
+            <h3>Shell</h3>
+            <p>A fully functional C-based Linux shell, replicating standard shell commands and behavior. Supports built-in commands, external commands, and process management.</p>
+            <p>Technologies: C</p><br />
+            <button >
+              <a 
+              style={{textDecoration: 'none', color: '#e4e4e5'}} 
+              href='https://github.com/iam-tarun/Linux-shell' target='_blank' rel='noreferrer'>View Project</a>
+            </button>
           </div>
-          <div className="card">
-            <div className="card-image">
-                    <img src={warp} alt="WARP" />
-                  </div>
-                   <div className="card-content">
-                   <h2 className='project-title' >WARP</h2>
-                    <p className='project-description' >WARP is a highly versatile model that can generate realistic talking videos with audio and lip synchronization. It's aim is to personalise indirect communication and make it a touch more interesting.</p>
-                   </div>
-                    <div className="card-action">
-                    <a href="https://github.com/iam-tarun/Woven-Artificial-Profile-WARP-Face-Video-Synthesis-from-Profile-and-Audio" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-                    </div>
-            </div>
-          
-          <div className="card">
-            <div className="card-image">
-                <img src={shell} alt="shell" />
-              </div>
-              <div className="card-content">
-              <h2 className='project-title' >Shell</h2>
-              <p className='project-description' >A fully functional C-based Linux shell, replicating standard shell commands and behavior. Supports built-in commands, external commands, and process management.</p>
-              </div>
-              <div className="card-action">
-              <a href="https://github.com/iam-tarun/Linux-shell" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-              </div>
+          <div className="project-card">
+            <img className='project-img' src={chatbot} alt='shell' />
+            <h3>Planet Bot</h3>
+            <p>Developed a chatbot using TF-IDF and cosine similarity, achieving an initial accuracy of 83% in fetching relevant answers to user questions.</p>
+            <p>Technologies: Python, Pytorch, Transformer Architecture</p><br />
+            <button >
+              <a 
+              style={{textDecoration: 'none', color: '#e4e4e5'}} 
+              href='https://github.com/iam-tarun/PlanetBot' target='_blank' rel='noreferrer'>View Project</a>
+            </button>
           </div>
-          <div className="card">
-          <div className="card-image">
-                <img src={trendSpotter} alt="trend spotter" />
-              </div>
-              <div className="card-content">
-              <h2 className='project-title' >Trend Spotter</h2>
-              <p className='project-description' >Enabled real-time tracking of trending names using Kibana, providing insights into popular topics and enhancing news
-analysis capabilities.</p>
-              </div>
-              <div className="card-action">
-              <a href="https://github.com/iam-tarun/pyspark-kafka-ELK-pipeline" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-              </div>
-          </div>
-          <div className="card">
-          <div className="card-image">
-                <img src={airp} alt="air passenger analysis" />
-              </div>
-              <div className="card-content">
-              <h2 className='project-title' >Air Passenger Analysis</h2>
-              <p className='project-description' >The project involves data preprocessing, model training, and evaluation, showcasing the power of SARIMA in capturing seasonality and trends within the airline passenger dataset.</p>
-              </div>
-              <div className="card-action">
-              <a href="https://github.com/iam-tarun/air-passenger-forecast-sarima" target='_blank' rel="noreferrer"><button className='card-button' >Learn More</button></a>
-              </div>
-          </div>
-
-          </div>
+        </div>
     </div>
   )
 }

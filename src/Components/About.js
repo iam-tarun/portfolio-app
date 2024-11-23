@@ -1,30 +1,61 @@
 import React from 'react'
+import profile from '../assets/profile.jpg'
 
 function About() {
   return (
-    <div className='about-section' >
-          <div className='main-about' >
-            <div className='about-card' >
-              <h3>Personal Introduction</h3>
-              <p>I'm Tarunteja Obbina, a passionate data analyst with a strong foundation in Python, SQL, data visualization. Driven by a curiosity for uncovering insights from complex datasets, I'm committed to using data to drive informed decision-making.</p>
+    <div className='about' >
+      <section className="about-section">
+      <div className="about-container">
+        {/* Left Side: Profile */}
+        <div className="about-left">
+          <img src={profile} alt="Profile" className="about-image" />
+          <h2 className="tagline">Passionate Software Engineer</h2>
+        </div>
+
+        {/* Right Side: Bio and Highlights */}
+        <div className="about-right">
+          <h3>About Me</h3>
+          <p>
+            Hi! I'm Tarunteja Obbina, a dedicated software engineer with experience in building
+            scalable and efficient solutions. I thrive in creating intuitive applications and
+            solving challenging problems in the tech world.
+          </p>
+
+          <div className="about-highlights">
+            <div className="highlight-card">
+              <h4>1.5 Years</h4>
+              <p>Experience</p>
             </div>
-            <div className='about-card' >
-              <h3>Skills and Expertise</h3>
-              <p>Technical Skills: Python, SQL, Tableau, Excel, Power BI</p>
-              <p>Analytical Skills: Data cleaning, data mining, statistical analysis, predictive modeling</p>
-              <p>Industry Experience: Around 2 years of experience in data analysis and product development.</p>
+            <div className="highlight-card">
+              <h4>10+ Projects</h4>
+              <p>Completed</p>
             </div>
-            <div className='about-card' >
-              <h3>Professional Journey</h3>
-              <p>Data Analyst - Product Developer: Engineered and optimized data models and processes, improving data accuracy and efficiency while supporting decision-making and data visualization.</p>
-              <p>Student Grader: Currently working as student Grader at UT Dallas.</p>
-            </div>
-            <div className='about-card' >
-              <h3>Career Goals</h3>
-              <p>Aspiring to become a data scientist within the next 2 years.
-              Aim to specialize in Machine Learning and contribute in innovative projects. Continuously develop my skills and stay updated with the latest trends in data analytics.</p>
+            <div className="highlight-card">
+              <h4>MEAN/MERN Stack</h4>
+              <p>Specialized Skills</p>
             </div>
           </div>
+          {/* Skills Section */}
+          <div className="skills-section">
+            <h4>Skills</h4>
+            <div className="skills-grid">
+              <span>React</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>SQL</span>
+              <span>MongoDB</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Git</span>
+              <span>Node.js</span>
+              <span>Machine Learning</span>
+              <span>Data Analysis</span>
+              <span>Cloud Computing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </div>
   )
 }
