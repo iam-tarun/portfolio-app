@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8716479.css",
-    "main.js": "/static/js/main.a3ccf514.js",
-    "static/media/about_bg.png": "/static/media/about_bg.22f4977a6e5894f5295a.png",
-    "static/media/profile_pic.png": "/static/media/profile_pic.5519650196e0449ddd78.png",
-    "static/media/bg.png": "/static/media/bg.442e1c328b7c5d7d65c3.png",
-    "static/media/trend-spotter.jpeg": "/static/media/trend-spotter.a41b72204fdc03d09deb.jpeg",
-    "static/media/scene-recognition.jpeg": "/static/media/scene-recognition.7b564c22889d6a690dcd.jpeg",
+    "main.css": "/static/css/main.8fa79396.css",
+    "main.js": "/static/js/main.23b2ff51.js",
+    "static/media/profile.jpg": "/static/media/profile.9e47d7dadb5fa648a9bd.jpg",
+    "static/media/helka.png": "/static/media/helka.3b7cc2b7ff6be22208af.png",
+    "static/media/dumbo.png": "/static/media/dumbo.4e3ab069163a168d779c.png",
     "static/media/shell.jpeg": "/static/media/shell.5258ac7afe933ee20f56.jpeg",
-    "static/media/airp.jpeg": "/static/media/airp.941e825eea1f17086983.jpeg",
-    "static/media/customer-segmentation.jpeg": "/static/media/customer-segmentation.e523c6761dcfcf930ebb.jpeg",
-    "static/media/warp.jpeg": "/static/media/warp.3ea37553558095199dd7.jpeg",
+    "static/media/finance_tracker.jpeg": "/static/media/finance_tracker.4ead803b669588bf4795.jpeg",
     "static/media/chatbot.jpeg": "/static/media/chatbot.a4f02d30b7b38a6e84c1.jpeg",
     "index.html": "/index.html",
-    "main.c8716479.css.map": "/static/css/main.c8716479.css.map",
-    "main.a3ccf514.js.map": "/static/js/main.a3ccf514.js.map"
+    "main.8fa79396.css.map": "/static/css/main.8fa79396.css.map",
+    "main.23b2ff51.js.map": "/static/js/main.23b2ff51.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8716479.css",
-    "static/js/main.a3ccf514.js"
+    "static/css/main.8fa79396.css",
+    "static/js/main.23b2ff51.js"
   ]
 }
