@@ -8,7 +8,7 @@ const Contact = () => {
       
       <div className="contact-container">
         {/* Contact Form */}
-        <form className="contact-form" action="https://formsubmit.co/your-email" method="POST">
+        <form className="contact-form" action="https://formsubmit.co/6ce71eade72bf5ecb28212c9732e9e99" method="POST">
           <div className="form-group">
             <label htmlFor="name">Name</label>
             <input type="text" id="name" name="name" required />
