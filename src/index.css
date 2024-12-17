@@ -405,7 +405,7 @@ body {
   font-size: 1.5rem;
   color: #e4e4e5;
   transition: color 0.3s ease-in-out;
-  margin: 1rem;
+  margin: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 .social-icon:hover {
@@ -472,6 +472,7 @@ body {
 
   .contact-section {
     height: 100vh;
+    overflow-y: visible;
   }
 
   .profile, .CTA {
