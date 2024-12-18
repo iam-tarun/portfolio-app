@@ -116,13 +116,13 @@ body {
   margin-top: 5rem;
   color: #e4e4e5;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   justify-content: center;
   text-align: justify;
 }
@@ -141,7 +141,7 @@ body {
   color: #e4e4e5;
   position: relative; 
   transition: transform 0.3s;
-  margin-top: 5rem;
+  margin-top: 6rem;
   margin-inline: 1rem;
 }
 
@@ -174,6 +174,7 @@ body {
 .about-section {
   color: #e4e4e5;
   min-width: 100%;
+  min-height: 80vh;
 }
 
 .about-container {
@@ -379,10 +380,11 @@ body {
   width: 100%;
   height: 12vh;
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .footer-container {
+  background-color: #2b283e;
   max-width: 100%;
   margin: 0 auto;
   display: flex;

@@ -27,11 +27,11 @@ function About() {
               <p>Experience</p>
             </div>
             <div className="highlight-card">
-              <h4>10+ Projects</h4>
+              <h4>5+ Projects</h4>
               <p>Completed</p>
             </div>
             <div className="highlight-card">
-              <h4>MEAN/MERN Stack</h4>
+              <h4>MEAN/MERN Stack, Spring Boot</h4>
               <p>Specialized Skills</p>
             </div>
           </div>
@@ -40,14 +40,17 @@ function About() {
             <h4>Skills</h4>
             <div className="skills-grid">
               <span>React</span>
+              <span>Angular</span>
+              <span>Spring Boot</span>
+              <span>Node.js</span>
               <span>Python</span>
               <span>JavaScript</span>
+              <span>Java</span>
               <span>SQL</span>
               <span>MongoDB</span>
               <span>HTML</span>
               <span>CSS</span>
               <span>Git</span>
-              <span>Node.js</span>
               <span>Machine Learning</span>
               <span>Data Analysis</span>
               <span>Cloud Computing</span>

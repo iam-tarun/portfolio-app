@@ -12,6 +12,17 @@ function Projects() {
           Projects
         </h2>
         <div className='projects'>
+        <div className='project-card'>
+              <img className='project-img' src={ft} alt='job quest' />
+              <h3>Job Quest</h3>
+              <p>A web app for tracking job applications, interviews, and company details, featuring SQL database integration and JWT-based authentication.</p>
+              <p>Technologies: Spring Boot, Angular, SQL</p><br />
+              <button >
+                <a 
+                style={{textDecoration: 'none', color: '#e4e4e5'}} 
+                href='https://github.com/iam-tarun/JobQuest' target='_blank' rel='noreferrer'>View Project</a>
+              </button>
+            </div>
           <div className='project-card'>
               <img className='project-img' src={ft} alt='finance tracker' />
               <h3>Finance Tracker</h3>
@@ -46,17 +57,6 @@ function Projects() {
             </button>
           </div>
           <div className="project-card">
-            <img className='project-img' src={shell} alt='shell' />
-            <h3>Shell</h3>
-            <p>A fully functional C-based Linux shell, replicating standard shell commands and behavior. Supports built-in commands, external commands, and process management.</p>
-            <p>Technologies: C</p><br />
-            <button >
-              <a 
-              style={{textDecoration: 'none', color: '#e4e4e5'}} 
-              href='https://github.com/iam-tarun/Linux-shell' target='_blank' rel='noreferrer'>View Project</a>
-            </button>
-          </div>
-          <div className="project-card">
             <img className='project-img' src={chatbot} alt='shell' />
             <h3>Planet Bot</h3>
             <p>Developed a chatbot using TF-IDF and cosine similarity, achieving an initial accuracy of 83% in fetching relevant answers to user questions.</p>
@@ -67,6 +67,18 @@ function Projects() {
               href='https://github.com/iam-tarun/PlanetBot' target='_blank' rel='noreferrer'>View Project</a>
             </button>
           </div>
+          <div className="project-card">
+            <img className='project-img' src={shell} alt='shell' />
+            <h3>Shell</h3>
+            <p>A fully functional C-based Linux shell, replicating standard shell commands and behavior. Supports built-in commands, external commands, and process management.</p>
+            <p>Technologies: C</p><br />
+            <button >
+              <a 
+              style={{textDecoration: 'none', color: '#e4e4e5'}} 
+              href='https://github.com/iam-tarun/Linux-shell' target='_blank' rel='noreferrer'>View Project</a>
+            </button>
+          </div>
+          
         </div>
     </div>
   )
