@@ -4,6 +4,7 @@ import dumbo from '../assets/dumbo.png'
 import shell from '../assets/shell.jpeg'
 import chatbot from '../assets/chatbot.jpeg'
 import ft from '../assets/finance_tracker.jpeg'
+import jq from '../assets/jobquest.png'
 
 function Projects() {
   return (
@@ -13,7 +14,7 @@ function Projects() {
         </h2>
         <div className='projects'>
         <div className='project-card'>
-              <img className='project-img' src={ft} alt='job quest' />
+              <img className='project-img' src={jq} alt='job quest' />
               <h3>Job Quest</h3>
               <p>A web app for tracking job applications, interviews, and company details, featuring SQL database integration and JWT-based authentication.</p>
               <p>Technologies: Spring Boot, Angular, SQL</p><br />
