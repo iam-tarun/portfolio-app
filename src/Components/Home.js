@@ -1,15 +1,15 @@
 import React from 'react'
 import profile from '../assets/profile.jpg'
 import ProjectPreview from './ProjectPreview'
-import ft from '../assets/finance_tracker.jpeg'
+import ft from '../assets/jobquest.png'
 
 function Home() {
 
   const latestProject = {
-    title: "Finance Tracker App",
-    description: "A tool to manage expenses, track budgets, and visualize finances.",
+    title: "Job Quest",
+    description: "A web app for tracking job applications, interviews, and company details, featuring SQL database integration and JWT-based authentication.",
     image: ft, // Replace with your latest project image
-    link: "https://github.com/your-profile/finance-tracker"
+    link: "https://github.com/your-profile/JobQuest"
   };
 
 
