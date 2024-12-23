@@ -1,9 +1,11 @@
 pipeline {
-  agent any
+  agent {
+    label 'jenkins_agent_portfolio'
+  }
   stages {
-    stage ('build') {
+    stage ('Build') {
       steps {
-        echo "testing jenkins"
+        echo "testing agent creation"
       }
     }
   }
