@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'jenkins_agent_portfolio'
+    docker { image 'jenkins/inbound-agent' }
   }
   stages {
     stage ('Build') {
