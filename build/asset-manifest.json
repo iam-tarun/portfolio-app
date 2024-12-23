@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9124f8d.css",
-    "main.js": "/static/js/main.32adc379.js",
-    "static/media/profile.jpg": "/static/media/profile.9e47d7dadb5fa648a9bd.jpg",
-    "static/media/helka.png": "/static/media/helka.3b7cc2b7ff6be22208af.png",
-    "static/media/dumbo.png": "/static/media/dumbo.4e3ab069163a168d779c.png",
-    "static/media/jobquest.png": "/static/media/jobquest.01767607755b0e77850e.png",
-    "static/media/shell.jpeg": "/static/media/shell.5258ac7afe933ee20f56.jpeg",
-    "static/media/finance_tracker.jpeg": "/static/media/finance_tracker.4ead803b669588bf4795.jpeg",
-    "static/media/chatbot.jpeg": "/static/media/chatbot.a4f02d30b7b38a6e84c1.jpeg",
-    "index.html": "/index.html",
-    "main.e9124f8d.css.map": "/static/css/main.e9124f8d.css.map",
-    "main.32adc379.js.map": "/static/js/main.32adc379.js.map"
+    "main.css": "/portfolio/static/css/main.e9124f8d.css",
+    "main.js": "/portfolio/static/js/main.02e1d96f.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.9e47d7dadb5fa648a9bd.jpg",
+    "static/media/helka.png": "/portfolio/static/media/helka.3b7cc2b7ff6be22208af.png",
+    "static/media/dumbo.png": "/portfolio/static/media/dumbo.4e3ab069163a168d779c.png",
+    "static/media/jobquest.png": "/portfolio/static/media/jobquest.01767607755b0e77850e.png",
+    "static/media/shell.jpeg": "/portfolio/static/media/shell.5258ac7afe933ee20f56.jpeg",
+    "static/media/finance_tracker.jpeg": "/portfolio/static/media/finance_tracker.4ead803b669588bf4795.jpeg",
+    "static/media/chatbot.jpeg": "/portfolio/static/media/chatbot.a4f02d30b7b38a6e84c1.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.e9124f8d.css.map": "/portfolio/static/css/main.e9124f8d.css.map",
+    "main.02e1d96f.js.map": "/portfolio/static/js/main.02e1d96f.js.map"
   },
   "entrypoints": [
     "static/css/main.e9124f8d.css",
-    "static/js/main.32adc379.js"
+    "static/js/main.02e1d96f.js"
   ]
 }

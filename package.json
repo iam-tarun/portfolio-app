@@ -1,5 +1,5 @@
 {
-  "homepage": "https://tarunteja-portfolio.firebaseapp.com/",
+  "homepage": "http://192.168.1.42:80/portfolio",
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
