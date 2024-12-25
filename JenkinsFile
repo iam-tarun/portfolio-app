@@ -1,5 +1,7 @@
 pipeline {
-  agent none
+  agent {
+    label 'portfolio-agent'
+  }
   stages {
     stage ('Build') {
       steps {
