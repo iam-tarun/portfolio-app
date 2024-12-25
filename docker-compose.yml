@@ -1,7 +1,7 @@
 services:
   portfolio:
     image: portfolio-image
-    container_name: portfolio
+    container_name: portfolio-container
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/portfolio.conf:ro
     restart: always
