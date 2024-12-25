@@ -14,8 +14,8 @@ pipeline {
       steps {
         echo "Initializing Project Deploy"
         sh '''
-          docker-compose -f /home/jenkins/agent2/workspace/my_server_pipeline_master/docker-compose.yml down || true
-            docker-compose -f /home/jenkins/agent2/workspace/my_server_pipeline_master/docker-compose.yml up -d
+          docker-compose down || true
+            docker-compose up -d
           '''
         echo "Deploy Successful"
       }
