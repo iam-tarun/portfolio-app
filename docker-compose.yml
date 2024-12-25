@@ -1,0 +1,12 @@
+services:
+  portfolio:
+    image: portfolio-image
+    container_name: portfolio
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    restart: always
+    networks:
+      - root-internal
+networks:
+  root-internal:
+    external: true
