@@ -194,7 +194,7 @@ h4 {
   background-color:#222;
   padding: 10px 0;
   bottom: 0;
-  /* min-/width: 100vw; */
+  min-width: 100vw;
 }
 
 footer p {
