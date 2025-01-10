@@ -3,10 +3,9 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
-        <p className="footer-text">An OTT Creation</p>
-        <div className="social-links">
+    <footer className="grid footer">
+        <p className="leading">An OTT Creation</p>
+        <div className="social-links grid">
           <a href="https://github.com/iam-tarun" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
           </a>
@@ -20,7 +19,6 @@ const Footer = () => {
             <FaEnvelope className="social-icon" />
           </a>
         </div>
-      </div>
     </footer>
   );
 };
