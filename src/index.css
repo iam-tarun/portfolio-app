@@ -131,10 +131,10 @@ h4 {
 }
 
 .profile img {
-  text-align: center;
-  margin: 80px auto;
-  width: 80%;
-  height: 80%;
+  margin-top: 70px;
+  margin-inline: auto;
+  width: 40%;
+  height: 60%;
   grid-column: 1/9;
   grid-row: 1/2;
   border-radius: 50%;
