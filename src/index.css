@@ -133,7 +133,7 @@ h4 {
 .profile img {
   margin-top: 70px;
   margin-inline: auto;
-  width: 60%;
+  width: 70%;
   height: 60%;
   grid-column: 1/9;
   grid-row: 1/2;
@@ -141,7 +141,7 @@ h4 {
 }
 
 .profile h1 {
-  padding-top: 80px;
+  padding-top: 160px;
   grid-column: 1/9;
   grid-row: 2/3;
 }
