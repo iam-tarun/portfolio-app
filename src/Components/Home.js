@@ -28,9 +28,9 @@ function Home() {
         <h3>{latestProject.title}</h3>
         <p className="leading">{latestProject.description}</p>
       </div>
-      <button className='button' >
-        <a style={{textDecoration: 'none', color: '#e4e4e5'}} href="./projects">View Projects</a>
-      </button>
+      <a className='a-button' style={{textDecoration: 'none', color: '#e4e4e5'}} href="./projects"><button className='button'  >
+        View Projects
+      </button></a>
     </div>
   
   )
