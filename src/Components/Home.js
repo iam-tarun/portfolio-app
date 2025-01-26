@@ -14,15 +14,15 @@ function Home() {
 
   return (
     <div id='home' className='grid'>
-      <div className='profile grid' >
-            <img className='profile-pic' src={profile} alt="tarun teja obbina profile pic" />
-    
-            <h1>Hi, I'm Tarun Teja Obbina</h1>
-            <h2>Software Engineer | Full Stack Developer </h2>
-            {/* short intro of me */}
-            <h3>Passionate software engineer specializing in scalable, efficient application development.</h3>
-      </div>
-      <div className='CTA grid' >
+      
+        <img className='profile-pic' src={profile} alt="tarun teja obbina profile pic" />
+
+        <h1>Hi, I'm Tarun Teja Obbina</h1>
+        <h2>Software Engineer | Full Stack Developer </h2>
+        {/* short intro of me */}
+        <h3>Passionate software engineer specializing in scalable, efficient application development.</h3>
+      
+      <div className='CTA' >
         <h2 >Latest Project</h2>
         <img src={latestProject.image} alt={latestProject.title}  />
         <h3>{latestProject.title}</h3>

@@ -125,12 +125,12 @@ h4 {
 
 /* mobile styles - home page */
 
-.profile {
-  grid-column: 1/9;
+
+#home {
   text-align: center;
 }
 
-.profile img {
+.profile-pic {
   margin: 80px auto;
   width: 80%;
   height: 80%;
@@ -139,32 +139,30 @@ h4 {
   border-radius: 50%;
 }
 
-.profile h1 {
-  padding-top: 160px;
+#home h1 {
   grid-column: 1/9;
   grid-row: 2/3;
 }
 
-.profile h2 {
+#home h2 {
   grid-column: 1/9;
   grid-row: 3/4;
 }
 
-.profile h3 {
+#home h3 {
   grid-column: 1/9;
   grid-row: 4/5;
 }
 
 .CTA {
   grid-column: 1/9;
-  grid-row: 2/3;
+  grid-row: 5/6;
   text-align: center;
 }
 
 .CTA h2 {
   grid-column: 1/9;
   grid-row: 1/2;
-  
 }
 
 .CTA img {
@@ -174,19 +172,9 @@ h4 {
   border-radius: 20px;
 }
 
-.CTA h3 {
-  grid-column: 2/8;
-  grid-row: 3/4;
-}
-
-.CTA p {
-  grid-column: 2/8;
-  grid-row: 4/5;
-}
-
 .a-button {
   grid-column: 3/7;
-  grid-row: 3/4;
+  grid-row: 6/7;
   margin: 0 auto;
 }
 
@@ -489,13 +477,17 @@ footer p {
     min-height: 92vh;
   }
 
-  .profile {
+  .profile-pic {
+    margin-top: 140px;
     grid-column: 1/5;
+    width: 60%;
+    height: 60%;
   }
 
   .CTA {
-    grid-column: 5/9;
+    margin-top: 80px;
     grid-row: 1/2;
+    grid-column: 5/9;
   }
 
   .button {
