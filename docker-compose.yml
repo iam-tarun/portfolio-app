@@ -1,0 +1,10 @@
+services:
+  portfolio:
+    image: portfolio-image
+    container_name: portfolio-container
+    restart: always
+    networks:
+      - root-internal
+networks:
+  root-internal:
+    external: true

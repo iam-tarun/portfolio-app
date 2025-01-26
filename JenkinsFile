@@ -1,12 +1,32 @@
 pipeline {
   agent {
-    label 'jenkins_agent_portfolio'
+    label 'portfolio-agent'
   }
   stages {
     stage ('Build') {
       steps {
-        echo "testing agent creation"
+        echo "Initializing Project Build"
+        sh "docker build -t portfolio-image ."
+        echo "Build Successful"
       }
+    }
+    stage ('Deploy') {
+      steps {
+        echo "Initializing Project Deploy"
+        sh '''
+          docker-compose down || true
+            docker-compose up -d
+          '''
+        echo "Deploy Successful"
+      }
+    }
+  }
+  post {
+    success {
+      echo "Pipeline completed successfully!"
+    }
+    failure {
+      echo "Pipeline failed. Check the logs for details."
     }
   }
 }

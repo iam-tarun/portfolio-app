@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className='nav-div' >
-      <ul className='nav' >
-        <li><Link to="/">HOME</Link></li>
-        <li><Link to="/projects">PROJECTS</Link></li>
-        <li><Link to="/about">ABOUT</Link></li>
-        <li><Link to="/contact">CONTACT</Link></li>
+    <nav className='site-nav grid' >
+      <ul className='grid' >
+        <li><NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')} >HOME</NavLink></li>
+        <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')} >PROJECTS</NavLink></li>
+        <li><NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')} >ABOUT</NavLink></li>
+        <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')} >CONTACT</NavLink></li>
       </ul>
-    </div>
+    </nav>
   )
 }
 
