@@ -12,7 +12,7 @@ function Projects() {
         <h2 style={{color: '#e4e4e5'}} >
           Projects
         </h2>
-        <div className='projects grid'>
+        <div className='projects grid projects-grid'>
         <div className='project-card'>
               <img className='project-img' src={jq} alt='job quest' />
               <h3>Job Quest</h3>
