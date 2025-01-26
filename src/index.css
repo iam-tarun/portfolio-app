@@ -128,6 +128,7 @@ h4 {
 
 #home {
   text-align: center;
+  margin-inline: 5px;
 }
 
 .profile-pic {
