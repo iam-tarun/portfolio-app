@@ -18,9 +18,9 @@ function Home() {
         <img className='profile-pic' src={profile} alt="tarun teja obbina profile pic" />
 
         <h1>Hi, I'm Tarun Teja Obbina</h1>
-        <h2>Software Engineer | Full Stack Developer </h2>
+        <h2 className='home-heading' >Full Stack Developer </h2>
         {/* short intro of me */}
-        <h3>Passionate software engineer specializing in scalable, efficient application development.</h3>
+        <h3 className='short-intro' >Full Stack Developer who loves turning ideas into reality with Python, JavaScript, and SQL. Whether it's crafting sleek frontends with React & Angular or building powerful backends with Node.js & Spring Boot, I thrive on creating scalable, high-performance applications. I enjoy solving complex problems, optimizing data flows, and exploring new tech—always looking for the next exciting challenge!</h3>
       
       <div className='CTA' >
         <h2 >Latest Project</h2>

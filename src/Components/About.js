@@ -1,72 +1,151 @@
-import React from 'react'
-import profile from '../assets/profile.jpg'
+import React from "react";
 
 function About() {
   return (
-      <section id="about" className="grid">
-    
-        
-          <img src={profile} alt="Profile" className="about-image" />
-          <h2 className="tagline">Passionate Software Engineer</h2>
-        
+    <section id="about" className="grid">
+      <h3 className="title about-me">About Me</h3>
+      <p className="leading about-text">
+        Hi! I'm Tarunteja Obbina, a dedicated software engineer with experience
+        in building scalable and efficient solutions. I thrive in creating
+        intuitive applications and solving challenging problems in the tech
+        world.
+      </p>
 
-        
-        
-          <h3>About Me</h3>
-          <p className="leading" >
-            Hi! I'm Tarunteja Obbina, a dedicated software engineer with experience in building
-            scalable and efficient solutions. I thrive in creating intuitive applications and
-            solving challenging problems in the tech world.
-          </p>
+      <div className="highlights grid">
+        <div id="highlight" className="highlight-card">
+          <h3 className="exp">1.5 Years</h3>
+          <p className="highlight-text">Experience</p>
+        </div>
+        <div id="highlight2" className="highlight-card">
+          <h3 className="exp">5+ Projects</h3>
+          <p className="highlight-text">Completed</p>
+        </div>
+        <div id="highlight3" className="highlight-card">
+          <h3 className="exp">MEAN/MERN/SPA stack</h3>
+          <p className="highlight-text">Specialized</p>
+        </div>
+      </div>
 
-            <div id='highlight' className="highlight-card">
-              <h3 className="exp" >1.5 Years</h3>
-              <p>Experience</p>
-            </div>
-            <div id='highlight2' className="highlight-card">
-              <h3 className="exp" >5+ Projects</h3>
-              <p>Completed</p>
-            </div>
-            <div id='highlight3' className="highlight-card">
-              <h3 className="exp" >MEAN/MERN Stack, Spring Boot</h3>
-              <p>Specialized Skills</p>
-            </div>
-          
-            <h4>Skills</h4>
-            
-            <div className='skills-wrapper' >
-            <h4>Programming Languages</h4>
-              <div id='skills' className="skills-grid-1">
-                <div>Python</div>
-                <div>JavaScript</div>
-                <div>Java</div>
-                <div>Dart</div>
-              </div>
-            </div>
-            <div className='skills-wrapper' >
-            <h4>Libraries & Frameworks</h4>
-              <div id='skills' className="skills-grid-2">
-                <div>React</div>
-                <div>Angular</div>
-                <div>Node.js</div>
-                <div>SpringBoot</div>
-                <div>Vue.js</div>
-                <div>Flutter</div>
-              </div>
-            </div>
-            <div className='skills-wrapper' >
-            <h4>Technologies</h4>
-              <div id='skills' className="skills-grid-3">
-                <div>MySQL</div>
-                <div>MongoDB</div>
-                <div>PostgreSQL</div>
-                <div>Firebase</div>
-                <div>Docker</div>
-                <div>Jenkins</div>
-              </div>
-            </div>
+      <div className="skill-title">Languages</div>
+      <div className="skills-wrapper">
+        <div className="skills-slide-left">
+          <div className="icon">
+            <i class="devicon-python-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-javascript-plain"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-java-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-dart-plain-wordmark"></i>
+          </div>
+        </div>
+        <div className="skills-slide-left">
+          <div className="icon">
+            <i class="devicon-python-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-javascript-plain"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-java-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-dart-plain-wordmark"></i>
+          </div>
+        </div>
+      </div>
+
+      <div className="skill-title">Libraries & Frameworks</div>
+      <div className="skills-wrapper">
+        <div className="skills-slide-right">
+          <div className="icon">
+            <i class="devicon-react-original-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-angular-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-nodejs-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-spring-original-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-vuejs-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-flutter-plain"></i>
+          </div>
+        </div>
+        <div className="skills-slide-right">
+          <div className="icon">
+            <i class="devicon-react-original-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-angular-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-nodejs-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-spring-original-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-vuejs-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-flutter-plain"></i>
+          </div>
+        </div>
+      </div>
+      <div className="skill-title">Technologies</div>
+      <div className="skills-wrapper">
+        <div className="skills-slide-left">
+          <div className="icon">
+            <i class="devicon-mysql-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-mongodb-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-postgresql-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-firebase-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-docker-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-jenkins-plain"></i>
+          </div>
+        </div>
+        <div className="skills-slide-left">
+          <div className="icon">
+            <i class="devicon-mysql-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-mongodb-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-postgresql-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-firebase-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-docker-plain-wordmark"></i>
+          </div>
+          <div className="icon">
+            <i class="devicon-jenkins-plain"></i>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default About
+export default About;

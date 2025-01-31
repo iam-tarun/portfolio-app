@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="grid footer">
-        <p className="leading">An OTT Creation</p>
+        <p className="">An OTT Creation</p>
         <div className="social-links grid">
           <a href="https://github.com/iam-tarun" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
