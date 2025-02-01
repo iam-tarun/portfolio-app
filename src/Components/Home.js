@@ -1,6 +1,6 @@
 import React from 'react'
 import profile from '../assets/profile.jpg'
-import ft from '../assets/jobquest.png'
+import ft from '../assets/jobquest-mock.png'
 
 function Home() {
 
@@ -24,8 +24,10 @@ function Home() {
       
       <div className='CTA' >
         <h2 >Latest Project</h2>
+        <div className='cta-image-wrapper' >
         <img src={latestProject.image} alt={latestProject.title}  />
-        <h3>{latestProject.title}</h3>
+        </div>
+        <h3 className='CTA-title' >{latestProject.title}</h3>
         <p className="leading">{latestProject.description}</p>
       </div>
       <a className='a-button' style={{textDecoration: 'none', color: '#e4e4e5'}} href="./projects"><button className='button'  >
