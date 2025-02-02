@@ -13,7 +13,7 @@ function About() {
 
       <div className="highlights grid">
         <div id="highlight" className="highlight-card">
-          <h3 className="exp">1.5 Years</h3>
+          <h3 className="exp">2.5 Years</h3>
           <p className="highlight-text">Experience</p>
         </div>
         <div id="highlight2" className="highlight-card">
