@@ -21,7 +21,7 @@ function About() {
           <p className="highlight-text">Completed</p>
         </div>
         <div id="highlight3" className="highlight-card">
-          <h3 className="exp">MEAN/MERN/SPA stack</h3>
+          <h3 className="exp">MEAN/SPA/LAMP stack</h3>
           <p className="highlight-text">Specialized</p>
         </div>
       </div>
@@ -61,6 +61,13 @@ function About() {
       <div className="skill-title">Libraries & Frameworks</div>
       <div className="skills-wrapper">
         <div className="skills-slide-right">
+        <div className="icon">
+        <i class="devicon-wordpress-plain-wordmark"></i>
+          
+        </div>
+        <div className="icon">
+            <i class="devicon-php-plain"></i>
+          </div>
           <div className="icon">
             <i class="devicon-react-original-wordmark"></i>
           </div>
@@ -81,6 +88,13 @@ function About() {
           </div>
         </div>
         <div className="skills-slide-right">
+        <div className="icon">
+        <i class="devicon-wordpress-plain-wordmark"></i>
+          
+        </div>
+        <div className="icon">
+            <i class="devicon-php-plain"></i>
+          </div>
           <div className="icon">
             <i class="devicon-react-original-wordmark"></i>
           </div>
